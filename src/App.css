@@ -125,3 +125,29 @@ h2 {
 .edit-icon {
   color: #fff;
 }
+@media (max-width: 480px) {
+  .todo-app {
+    width: 100%;
+    min-height: auto;
+    margin: 16px 0;
+  }
+
+  h1, h2 {
+    font-size: 18px;
+    margin: 24px 0;
+  }
+
+  .todo-input {
+    width: calc(100% - 70px);
+    padding: 12px 14px;
+  }
+
+  .todo-button {
+    padding: 12px;
+  }
+
+  .todo-row {
+    width: 98%;
+    padding: 10px;
+  }
+}
