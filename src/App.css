@@ -149,6 +149,7 @@ h2 {
   .todo-button {
     margin-top: 6px;
     padding: 12px;
+    border-radius: 3px;
   }
 
   .todo-row {
