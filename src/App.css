@@ -125,7 +125,10 @@ h2 {
 .edit-icon {
   color: #fff;
 }
-@media (max-width: 480px) {
+@media (max-width: 786px) {
+  body{
+    background-repeat: no-repeat;
+  }
   .todo-app {
     width: 100%;
     min-height: auto;
